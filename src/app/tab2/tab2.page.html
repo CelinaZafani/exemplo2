@@ -1,17 +1,47 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Perfil</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="color">
+  <div class="form-container">
+    <ion-avatar class="avatar">
+      <img src="https://www.jeqist.pt/wp-content/uploads/2020/02/blank-profile-picture-973460_640.png">
+    </ion-avatar>
+  </div>
+  
+  <ion-form-container>
+    <span class="form-heading"></span>
+    <ion-list>
+      
+      <ion-title class="info ion-text-center">
+        <h3>Nome</h3>
+      </ion-title>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+      <ion-card-subtitle class="info ion-text-center">
+        informação
+      </ion-card-subtitle>
+  
+      <ion-list lines="none" class="list-header">
+        <ion-item>
+          <ion-icon class="active" name="mail-outline"></ion-icon><p>email@email.com</p>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="active" name="calendar-outline"></ion-icon><p>Calendário</p>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="active" name="construct-outline"></ion-icon><p>Configurações</p>
+        </ion-item>
+      </ion-list>
+    
+    </ion-list>
+  </ion-form-container>
+
+</div>
+    
 </ion-content>
