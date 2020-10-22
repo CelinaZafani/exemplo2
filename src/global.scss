@@ -24,3 +24,21 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+    --ion-color-azul: #4169E1;
+    --ion-color-azul-rgb: 65,105,225;
+    --ion-color-azul-contrast: #ffffff;
+    --ion-color-azul-contrast-rgb: 255,255,255;
+    --ion-color-azul-shade: #395cc6;
+    --ion-color-azul-tint: #5478e4;
+  }
+  
+  .ion-color-azul {
+    --ion-color-base: var(--ion-color-azul);
+    --ion-color-base-rgb: var(--ion-color-azul-rgb);
+    --ion-color-contrast: var(--ion-color-azul-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-azul-contrast-rgb);
+    --ion-color-shade: var(--ion-color-azul-shade);
+    --ion-color-tint: var(--ion-color-azul-tint);
+  }
