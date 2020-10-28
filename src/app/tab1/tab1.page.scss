@@ -1,7 +1,7 @@
 ion-header {
 
     ion-toolbar, ion-item {
-      --background: #FF6A6A;
+      --background: #0000EE;
       background: #f1f5f8;
       padding: 0 10px;
     }
@@ -41,7 +41,7 @@ ion-header {
     }
   
     .nome {
-      background: linear-gradient(90deg,#FF6A6A 0%, #FF4040 50%,#FF6A6A 100%);
+      background: linear-gradient(90deg,#1E90FF 0%, #0000EE 50%,#1E90FF 100%);
       padding: 4px 10px 20px 10px;
       margin-top: 30px;
       border-radius: 5px 5px 5px 5px;
@@ -103,6 +103,11 @@ ion-header {
   
       h2 {
         padding-bottom: 8px;
+      }
+
+      .img{
+        height: 100px;
+        right: 50px;
       }
   
     }
